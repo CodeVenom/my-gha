@@ -1,0 +1,25 @@
+{
+  "name": "my-gha",
+  "version": "1.0.0",
+  "description": "TBD...",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "ncc build index.js --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeVenom/my-gha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeVenom/my-gha/issues"
+  },
+  "homepage": "https://github.com/CodeVenom/my-gha#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "@actions/github": "^5.0.3"
+  }
+}
